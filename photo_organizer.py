@@ -5,7 +5,6 @@ from datetime import datetime
 from PIL import Image
 
 class PhotoOrganizer:
-
     def folder_path_from_photo_date(self, file):
         date = self.photo_shooting_date(file)
         return date.strftime('%Y') + '/' + date.strftime('%Y-%m-%d')
@@ -28,12 +27,12 @@ class PhotoOrganizer:
 
     def organize_photos(self):
         all_photos = [
-            filename for filename in os.listdir('.') if any(filename.endswith(ext) for ext in self.get_extensions_for_type())
+            filename for filename in os.listdir('.') if any(filename.endswith(ext) for ext in self.get_extensions_for_type_of_file())
         ]
         for filename in all_photos:
             self.move_photo(filename)
 
-    def get_extensions_for_type(self):
+    def get_extensions_for_type_of_file(self):
         general_type = 'image'
         image_extensions = []
         for ext in mimetypes.types_map:
@@ -43,7 +42,4 @@ class PhotoOrganizer:
 
 PO = PhotoOrganizer()
 PO.organize_photos()
-
-
-
 
