@@ -12,18 +12,18 @@ class PhotoOrganizer:
     def photo_shooting_date(self, file):
         photo = Image.open(file)
         info = photo._getexif()
-        if 36867 in info:
-            date = info[36867]
-            date = datetime.strptime(date, '%Y:%m:%d %H:%M:%S')
-        else:
-            date = datetime.fromtimestamp(os.path.getmtime(file))
+        date = datetime.fromtimestamp(os.path.getmtime(file))
+        if info:
+            if 36867 in info:
+                date = info[36867]
+                date = datetime.strptime(date, '%Y:%m:%d %H:%M:%S')
         return date
 
     def move_photo(self, file):
         new_folder = self.folder_path_from_photo_date(file)
         if not os.path.exists(new_folder):
             os.makedirs(new_folder)
-            shutil.move(file,new_folder + '/' + file)
+        shutil.move(file,new_folder + '/' + file)
 
     def organize_photos(self):
         all_photos = [
