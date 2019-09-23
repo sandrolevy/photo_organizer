@@ -7,7 +7,7 @@ from PIL import Image
 class PhotoOrganizer:
     def folder_path_from_photo_date(self, file):
         date = self.photo_shooting_date(file)
-        return date.strftime('%Y') + '/' + date.strftime('%Y-%m-%d')
+        return date.strftime('%Y') + '/' + date.strftime('%Y-%m')
 
     def photo_shooting_date(self, file):
         photo = Image.open(file)
