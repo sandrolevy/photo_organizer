@@ -12,9 +12,10 @@ class PhotoOrganizer:
     def photo_shooting_date(self, file):
         photo = Image.open(file)
         info = photo._getexif()
+        valuekey_for_shooting_date = 36867
         date = datetime.fromtimestamp(os.path.getmtime(file))
         if info:
-            if 36867 in info:
+            if valuekey_for_shooting_date in info:
                 date = info[36867]
                 date = datetime.strptime(date, '%Y:%m:%d %H:%M:%S')
         return date
