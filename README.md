@@ -1,8 +1,6 @@
 # PHOTO ORGANIZER WITH PYTHON
 
-Created: Mar 02, 2020 3:42 PM
-Tags: python
-Updated: Mar 02, 2020 5:21 PM
+[TOC]
 
 ## DESCRIPTION
 
@@ -34,7 +32,7 @@ This will create a copy of the program to your local machine and prepare your en
 
 - If you have Python installed, it will report the version number.
 
-![PHOTO%20ORGANIZER%20WITH%20PYTHON/check-python-version-windows.png](PHOTO%20ORGANIZER%20WITH%20PYTHON/check-python-version-windows.png)
+![](D:\Levy\Downloads\python.png)
 
 - If you don't have Python installed [CLICK HERE](https://realpython.com/installing-python/) to install
 
@@ -61,7 +59,11 @@ This will create a copy of the program to your local machine and prepare your en
 
 ### BEFORE
 
-![PHOTO%20ORGANIZER%20WITH%20PYTHON/Untitled.png](PHOTO%20ORGANIZER%20WITH%20PYTHON/Untitled.png)
+![](D:\Levy\Downloads\before.png)
+
+### AFTER
+
+![](D:\Levy\Downloads\after.png)
 
 ## **Contributing**
 
@@ -75,6 +77,3 @@ Feel free to submitting pull requests to us.
 
 This project is licensed under the [GNU General Public License](https://opensource.org/licenses/GPL-3.0).
 
-### AFTER
-
-![PHOTO%20ORGANIZER%20WITH%20PYTHON/Untitled%201.png](PHOTO%20ORGANIZER%20WITH%20PYTHON/Untitled%201.png)
