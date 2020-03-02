@@ -1,6 +1,19 @@
 # PHOTO ORGANIZER WITH PYTHON
 
-[TOC]
+## TABLE OF CONTENT
+- [DESCRIPTION](#description)
+- [REQUIREMENT](#requirement)
+- [GETTING STARTING](#getting-starting)
+- [QUICK START 🚀](#quick-start-)
+  * [PYTHON](#python)
+  * [LIBRARY](#library)
+- [INSTALLING](#installing)
+- [HOW TO USE](#how-to-use)
+  * [BEFORE](#before)
+  * [AFTER](#after)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
 
 ## DESCRIPTION
 
@@ -32,7 +45,7 @@ This will create a copy of the program to your local machine and prepare your en
 
 - If you have Python installed, it will report the version number.
 
-![](D:\Levy\Downloads\python.png)
+![](https://phoenixnap.com/kb/wp-content/uploads/2019/10/check-python-version-windows.png)
 
 - If you don't have Python installed [CLICK HERE](https://realpython.com/installing-python/) to install
 
@@ -59,11 +72,11 @@ This will create a copy of the program to your local machine and prepare your en
 
 ### BEFORE
 
-![](D:\Levy\Downloads\before.png)
+![Imgur](https://i.imgur.com/KIFdXlx.png)
 
 ### AFTER
 
-![](D:\Levy\Downloads\after.png)
+![Imgur](https://i.imgur.com/3LYVdeP.png)
 
 ## **Contributing**
 
